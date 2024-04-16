@@ -1,0 +1,68 @@
+/*ESTILO GLOBAL*/
+*{
+    margin: 0; /*Zera a margem*/
+    padding: 0; /*Zera o Padding*/
+    box-sizing: border-box; /*Não estoura o Box Model*/
+    font-family: "Syne", sans-serif; /*Fonte do Google*/
+}
+
+/*FUNDO DA PÁGINA*/
+body{
+    background-image: url('../img/Login-Image.jpg'); /*Imagem de Fundo*/
+    background-size: 200px; /*Tamanho da Imagem*/
+    max-width: 100vw; /*Largura máxima em toda a tela*/
+    min-height: 100vh; /*Altura minima em toda a tela*/
+    display: flex; /*Flexbox*/
+    justify-content: center; /*Alinha o eixo principal ao centro*/
+    align-items: center; /*Alinha o eixo perpendicular ao centro*/
+}
+
+/*FORMULÁRIO*/
+form{
+    background-color:var(--bg-primary); /*Cor de Fundo do Formulário*/
+    width: 640px; /*Largura de 640px*/
+    height: 368px; /*Altura de 368px*/
+    display: flex; /*Flexbox*/
+    flex-direction: column; /*Alinhamento em Colunas*/
+    align-items: center; /*Alinha o eixo perpendicular ao centro*/
+    justify-content: center; /*Alinha o eixo principal ao centro*/
+}
+
+/*DEFINE A FONTE*/
+h1, #loginBtn{
+    font-family: "Noto Sans Display", sans-serif; /*Fonte do Google*/ 
+}
+
+/*TÍTULO DA PÁGINA*/
+h1{
+    margin-bottom: 24px; /*Margem abaixo de 24px*/
+}
+
+/*CAMPOS DE ENTRADA*/
+#user, #password{
+    background-color: var(--bg-secondary); /*Cor de Fundo dos Campos de Entrada*/
+    height: 24px; /*Altura de 24px*/
+    border: none; /*Tira a Borda*/
+    color: var(--primary-color); /*Cor do Texto*/
+    text-align: center; /*Alinha o texto ao centro*/
+    width: 75%; /*Largura de 75% do elemento pai*/
+    margin: 8px 0 8px 0; /*Margem | Topo - Direita - Abaixo - Esquerda*/
+}
+
+/*BOTÃO DE LOGIN*/
+#loginBtn{
+    background-color: var(--bg-button); /*Cor de Fundo*/
+    color: var(--primary-color); /*Cor do Texto*/
+    font-size: 1em; /*Tamanho da fonte de 100%*/
+    border: none; /*Tira a borda*/
+    width: 160px; /*Largura de 160px*/
+    height: 32px; /*Altura de 32px*/
+    margin-top: 24px; /*Margem ao topo de 24px*/
+    cursor: pointer; /*Mãozinha do Mouse*/
+}
+
+/*BOTÃO AO PASSAR O MOUSE*/
+#loginBtn:hover{
+    transform: scale(1.03); /*Tamanho do Botão em 103%*/
+    transition: 0.5s ease-in-out; /*Suaviza o botão ao passar o mouse*/
+}

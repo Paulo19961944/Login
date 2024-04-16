@@ -1,0 +1,7 @@
+/*VARIÁVEIS CSS*/
+:root{
+    --bg-primary: rgba(240, 240, 240, 0.85); /*Cor de FUNDO do FORMULÁRIO*/
+    --bg-secondary: #000; /*Cor dos CAMPOS de ENTRADA*/
+    --bg-button: #2e7a35; /*Cor de FUNDO do BOTÃO*/
+    --primary-color: #fff; /*Cor do TEXTO*/
+}

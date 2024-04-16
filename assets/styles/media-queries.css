@@ -1,0 +1,61 @@
+/*TABLETS*/
+@media screen and (max-width: 768px) {
+    /*FORMULÁRIO*/
+    form{
+        width: 425px; /*Largura de 425px*/
+    }
+
+    /*TITULO DO FORMULÁRIO*/
+    h1{
+        font-size: 1.7em; /*Tamanho da Fonte de 170%*/
+    }
+
+    /*CAMPOS DE ENTRADA, RÓTULOS E BOTÃO DE LOGIN*/
+    label, #user, #password, #loginBtn{
+        font-size: 0.75em; /*Tamanho da fonte de 75%*/
+    }
+
+    /*BOTÃO*/
+    #loginBtn{
+        width: 144px; /*Largura de 144px*/
+    }
+}
+
+/*CELULARES*/
+@media screen and (max-width: 576px) {
+    /*FORMULÁRIO*/
+    form{
+        width: 90vw; /*Largura de 90% da tela*/
+        height: 320px; /*Altura de 320px*/
+
+    }
+
+    /*BOTÃO DE LOGIN*/
+    #loginBtn{
+        width: 120px; /*Largura de 120 px*/
+    }
+}
+
+/*DISPOSITVOS MAIORES*/
+@media screen and (min-width: 1440px) {
+    /*FORMULÁRIO*/
+    form{
+        width: 800px; /*Largura de 800px*/
+        height: 500px; /*Altura de 500px*/
+    }
+
+    /*TÍTULO DO FORMULÁRIO*/
+    h1{
+        font-size: 2.4em; /*Tamanho da fonte de 240%*/
+    }
+
+    /*CAMPOS DE ENTRADA, ROTULOS E BOTÃO DE LOGIN*/
+    label, #loginBtn, #user, #password{
+        font-size: 1.2em; /*Tamanho da fonte de 120%*/
+    }
+
+    /*BOTÃO DE LOGIN*/
+    #loginBtn{
+        height: 48px; /*Altura de 48px*/
+    }
+}

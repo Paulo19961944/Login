@@ -9,7 +9,7 @@
 /*FUNDO DA PÁGINA*/
 body{
     background-image: url('../img/Login-Image.jpg'); /*Imagem de Fundo*/
-    background-repeat: repeat;
+    background-repeat: repeat; /*Repete a Imagem*/
     max-width: 100vw; /*Largura máxima em toda a tela*/
     min-height: 100vh; /*Altura minima em toda a tela*/
     display: flex; /*Flexbox*/
